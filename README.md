@@ -34,11 +34,13 @@ I'm a final-year **Electrical & Electronic Engineering (EEE)** student pivoting 
 * **Tools:** Git, Linux, VS Code, Postman
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ShajidShahriar&show_icons=true&theme=radical&hide_title=true" height="150" alt="Shajid's Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ShajidShahriar&layout=compact&theme=radical&hide_title=true" height="150" alt="Shajid's Languages" />
-</div>
-
-<div align="center">
+  <a href="https://github.com/ShajidShahriar">
+    <img src="https://github-readme-stats.vercel.app/api?username=ShajidShahriar&show_icons=true&theme=radical&hide_title=true" height="150" alt="stats graph" />
+  </a>
+  <a href="https://github.com/ShajidShahriar">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ShajidShahriar&layout=compact&theme=radical&hide_title=true" height="150" alt="languages graph" />
+  </a>
+  <br />
   <br />
   <a href="mailto:shajidsr12@gmail.com">Email Me</a> • <a href="https://linkedin.com/in/shajid-shahriar-194301292">LinkedIn</a>
 </div>
