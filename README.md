@@ -1,6 +1,6 @@
 # Hi, I'm Shajid
 
-I'm a final-year **Electrical & Electronic Engineering (EEE)** student pivoting to **Software Engineering**.
+I Build Stuff.
 
 ## Featured Web Applications
 *High-quality projects I built with modern tooling.*
