@@ -1,5 +1,5 @@
 # Hi, I'm Shajid
-I build stuff
+I build stuff 
 
 ## Featured Projects
 *Production-grade builds with real architecture decisions behind them.*
@@ -10,6 +10,11 @@ I build stuff
 | [**Medimove**](https://github.com/ShajidShahriar/medimove-platform) <br> [Live Demo](https://medimove-platform.vercel.app) | B2B logistics platform for medical resource management, in real client use, with MongoDB aggregation pipelines handling live operational data. | `React` `Node.js` `MongoDB` |
 | [**Kanban Board**](https://github.com/ShajidShahriar/sammtech-kanban) <br> [Live Demo](https://sammtech-kanban-rosy.vercel.app) | Full drag-and-drop project management board with Framer Motion animations, a GitHub-style activity heatmap, deadline-aware calendar view, and guided onboarding flow. Diagnosed and resolved a transform-conflict bug between the DnD and animation libraries. | `React` `@hello-pangea/dnd` `Framer Motion` |
 | [**Olvia Platform**](https://github.com/ShajidShahriar/olvia-platform) <br> [Live Demo](https://olvia-platform.vercel.app) *(Dev Demo - frontend only)* | Full-stack company site concept with a dynamic, owner-controlled RBAC system - permissions and UI elements (including a fully dynamic slider module) are configurable at runtime, no redeploy needed. | `React` `Dynamic RBAC` |
+
+## Machine Learning & Research
+| Project | Description | Tech Stack |
+| :--- | :--- | :--- |
+| [**Synthetic Winter: CycleGAN**](https://github.com/ShajidShahriar/Synthetic-Winter-CycleGAN) | Thesis project using CycleGAN for unpaired summer-to-winter image translation, generating synthetic winter driving data to address domain shift in autonomous driving models. Manually curated a balanced dataset (from ~700 imbalanced images to 400+ balanced, higher-resolution frames) after finding no suitable public dataset. Achieved a 9% FID improvement and 26% SSIM improvement between dataset versions, and validated downstream usefulness with a pretrained Faster R-CNN detector, improving object retention ratio from 0.21 to 0.39. | `PyTorch` `CycleGAN` `Computer Vision` |
 
 ## Systems & Infrastructure (In Progress)
 * **Sentinel** - AI-powered incident triage system: GitHub/Sentry webhook ingestion, Redis/BullMQ queue processing, LLM-driven root cause analysis, Slack delivery. Architected around a split deployment (serverless ingestion + containerized persistent worker) after identifying that BullMQ workers can't run on serverless infrastructure.
