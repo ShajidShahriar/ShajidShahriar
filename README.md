@@ -1,6 +1,9 @@
 # Hi, I'm Shajid
 I build stuff 
 
+## Currently Working On
+* [**Clank**](https://github.com/ShajidShahriar/clank) - A local-first, RAG-powered coding assistant that indexes a codebase (AST-aware chunking via tree-sitter, embeddings, semantic retrieval) and evolves into an agentic coding assistant with tool-calling, powered by gpt-oss-120B, capable of understanding and editing real repos autonomously.
+
 ## Featured Projects
 *Production-grade builds with real architecture decisions behind them.*
 
@@ -15,9 +18,6 @@ I build stuff
 | Project | Description | Tech Stack |
 | :--- | :--- | :--- |
 | [**Synthetic Winter: CycleGAN**](https://github.com/ShajidShahriar/Synthetic-Winter-CycleGAN) | ML project using CycleGAN for unpaired summer-to-winter road image translation, generating synthetic winter driving data to address domain shift in autonomous driving models. Manually curated a balanced dataset (from ~700 imbalanced images to 400+ balanced, higher-resolution frames) after finding no suitable public dataset. Achieved a 9% FID improvement and 26% SSIM improvement between dataset versions, and validated downstream usefulness with a pretrained Faster R-CNN detector, improving object retention ratio from 0.21 to 0.39. | `PyTorch` `CycleGAN` `Computer Vision` |
-
-## Systems & Infrastructure (In Progress)
-* **Sentinel** - AI-powered incident triage system: GitHub/Sentry webhook ingestion, Redis/BullMQ queue processing, LLM-driven root cause analysis, Slack delivery. Architected around a split deployment (serverless ingestion + containerized persistent worker) after identifying that BullMQ workers can't run on serverless infrastructure.
 
 ## Engineering & Robotics
 *Earlier EEE coursework - algorithmic and systems thinking applied to hardware.*
