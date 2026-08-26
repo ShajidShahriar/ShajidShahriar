@@ -19,6 +19,9 @@ I build stuff
 | :--- | :--- | :--- |
 | [**Synthetic Winter: CycleGAN**](https://github.com/ShajidShahriar/Synthetic-Winter-CycleGAN) | ML project using CycleGAN for unpaired summer-to-winter road image translation, generating synthetic winter driving data to address domain shift in autonomous driving models. Manually curated a balanced dataset (from ~700 imbalanced images to 400+ balanced, higher-resolution frames) after finding no suitable public dataset. Achieved a 9% FID improvement and 26% SSIM improvement between dataset versions, and validated downstream usefulness with a pretrained Faster R-CNN detector, improving object retention ratio from 0.21 to 0.39. | `PyTorch` `CycleGAN` `Computer Vision` |
 
+## DSA Practice
+* [**NeetCode Submissions**](https://github.com/ShajidShahriar/neetcode-submissions-w30usvyg) - Solutions and submissions from working through the NeetCode problem set, tracking DSA practice and problem-solving patterns.
+
 ## Engineering & Robotics
 *Earlier EEE coursework - algorithmic and systems thinking applied to hardware.*
 * [**Self Balancing Robot**](https://github.com/ShajidShahriar/self_balancing_robot) - Autonomous stability system using PID control algorithms.
