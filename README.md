@@ -7,12 +7,23 @@ I build stuff
 ## Featured Projects
 *Production-grade builds with real architecture decisions behind them.*
 
+### Fullstack (Backend Heavy)
 | Project | Description | Tech Stack |
 | :--- | :--- | :--- |
+| [**Seat Ase**](https://github.com/ShajidShahriar/Seat-Ase) <br> [Live Demo](https://seat-ase-web.vercel.app) | Ride-pooling app for Dhaka's auto-rickshaws, where strangers heading the same way share a ride and split the fare. Concurrency-safe seat allocation layered as row locks, conditional updates, and a database `CHECK` constraint, proven live on a built-in Seat Race page. Idempotent booking creation, a shared state-transition table for the full ride lifecycle, live updates over Server-Sent Events with a polling fallback, and 281 automated tests run against a real Postgres. | `Next.js` `Express` `PostgreSQL` `Drizzle ORM` `Zod` `JWT` `SSE` `Docker` |
 | [**Smart-Vet**](https://github.com/ShajidShahriar/smart-vet) <br> [Live Demo](https://smart-vet-weld.vercel.app) | AI-powered resume analysis SaaS with Gemini API integration (strictness slider mapped to temperature), Stripe subscription billing with idempotent webhook processing, SHA-256 response caching, and server-side credit gating. | `Next.js` `TypeScript` `Gemini API` `Stripe` `NextAuth` |
-| [**Medimove**](https://github.com/ShajidShahriar/medimove-platform) <br> [Live Demo](https://medimove-platform.vercel.app) | B2B logistics platform for medical resource management, in real client use, with MongoDB aggregation pipelines handling live operational data. | `React` `Node.js` `MongoDB` |
+| [**Cursus**](https://github.com/ShajidShahriar/cursus) <br> [Live Demo](https://cursus-six.vercel.app) | Full-stack Learning Management System with four roles (admin, instructor, content manager, student) and role- and ownership-based access control enforced server-side on every request. Server-graded quizzes (client scores are discarded, answer keys never reach students), live-computed course progress, a draft-to-publish blog flow, and a GitHub-style activity heatmap fed by lifecycle hooks. Structured Winston logging with per-request correlation IDs. Deployed on Railway + Postgres and Vercel. | `Next.js` `Strapi 5` `TypeScript` `PostgreSQL` `Tailwind CSS` |
+
+### Frontend
+| Project | Description | Tech Stack |
+| :--- | :--- | :--- |
 | [**Kanban Board**](https://github.com/ShajidShahriar/sammtech-kanban) <br> [Live Demo](https://sammtech-kanban-rosy.vercel.app) | Full drag-and-drop project management board with Framer Motion animations, a GitHub-style activity heatmap, deadline-aware calendar view, and guided onboarding flow. Diagnosed and resolved a transform-conflict bug between the DnD and animation libraries. | `React` `@hello-pangea/dnd` `Framer Motion` |
 | [**Olvia Platform**](https://github.com/ShajidShahriar/olvia-platform) <br> [Live Demo](https://olvia-platform.vercel.app) *(Dev Demo - frontend only)* | Full-stack company site concept with a dynamic, owner-controlled RBAC system - permissions and UI elements (including a fully dynamic slider module) are configurable at runtime, no redeploy needed. | `React` `Dynamic RBAC` |
+
+### E-commerce
+| Project | Description | Tech Stack |
+| :--- | :--- | :--- |
+| [**Medimove**](https://github.com/ShajidShahriar/medimove-platform) <br> [Live Demo](https://medimove-platform.vercel.app) | B2B logistics platform for medical resource management, in real client use, with MongoDB aggregation pipelines handling live operational data. | `React` `Node.js` `MongoDB` |
 
 ## Machine Learning & Research
 | Project | Description | Tech Stack |
